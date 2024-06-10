@@ -1,0 +1,463 @@
+.frame-child,
+.frame-item {
+  position: absolute;
+  border-radius: 50%;
+}
+.frame-child {
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-darkgreen);
+  border: 0 solid var(--color-darkgreen);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.frame-item {
+  top: 6px;
+  left: 8.5px;
+  box-shadow: 0 4px 34px rgba(0, 0, 0, 0.25);
+  background-color: var(--primary-neutral-0);
+  width: 6.5px;
+  height: 4.5px;
+  z-index: 5;
+}
+.ellipse-parent {
+  width: 23.4px;
+  height: 16.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 99.5px;
+  left: 580.9px;
+}
+.banner-container-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-41xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.one-way-journey {
+  color: var(--color-darkgreen);
+}
+.why-choose-ac-container {
+  margin: 0;
+  width: 698px;
+  position: relative;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.our-oneway-cab-service-is-chea {
+  display: block;
+}
+.read-more1 {
+  font-weight: 800;
+}
+.read-more {
+  display: block;
+}
+.our-oneway-cab-container {
+  margin: 0;
+  align-self: stretch;
+  height: 176.1px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  font-family: var(--font-poppins);
+}
+.choose-cab-content,
+.why-choose-ac-bus-or-ac-train-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.why-choose-ac-bus-or-ac-train-parent {
+  align-self: stretch;
+  gap: 13.1px;
+}
+.choose-cab-content {
+  flex: 1;
+  padding: 51.2px 0 0;
+  box-sizing: border-box;
+  min-width: 473px;
+}
+.image-processing20200705-14536-icon {
+  width: 665px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.choose-cab-container,
+.choose-cab-container-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.choose-cab-container {
+  flex: 1;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.choose-cab-container-wrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl) var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-rounded-mplus-1c);
+}
+.discovering-indias-diverse,
+.one-scenic-road {
+  margin: 0;
+}
+.discovering-indias-diverse-container {
+  margin: 0;
+  height: 144px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.description {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkgreen);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl);
+}
+.experience-the-thrill {
+  margin-bottom: 0;
+}
+.experience-the-thrill-of-road {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.blank-line {
+  display: block;
+}
+.instead-of-worrying {
+  margin-bottom: 0;
+}
+.instead-of-worrying-about-the {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.blank-line1 {
+  display: block;
+}
+.we-cherish-the {
+  margin-bottom: 0;
+}
+.we-cherish-the-freedom-to-stop {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.blank-line2 {
+  display: block;
+}
+.no-destination-is {
+  margin-bottom: 0;
+}
+.no-destination-is-too-far-or-t {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.blank-line3 {
+  display: block;
+}
+.planning-your-trip {
+  margin-bottom: 0;
+}
+.planning-your-trip-is-a-breeze {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.blank-line4 {
+  display: block;
+}
+.our-experienced-drivers {
+  margin-bottom: 0;
+}
+.our-experienced-drivers-are-yo {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.experience-the-thrill-container {
+  margin: 0;
+  height: 660px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.experience {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) var(--padding-7xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray-200);
+}
+.experience,
+.scenic-landscapes,
+.scenic-landscapes-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.scenic-landscapes-container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.scenic-landscapes {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl) var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--primary-neutral-0);
+  font-family: var(--font-poppins);
+}
+.why-choose-yatri {
+  margin: 0;
+  height: 72px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.yatri-info {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkgreen);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl);
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.expert-chauffeurs-at,
+.extensive-industry-experience,
+.safety-is-our,
+.service-you-can,
+.yatri-car-rental {
+  margin-bottom: 0;
+}
+.yatri-car-rental-has-been-a-tr {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-10xl);
+}
+.yatri-car-rental-container {
+  margin: 0;
+  height: 759px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.platform-info {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-27xl) var(--padding-lg);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.platform-info,
+.rental,
+.yatri-platform {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.yatri-platform {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray-200);
+}
+.rental {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.frontend-page,
+.why-yatri-rental {
+  display: flex;
+  box-sizing: border-box;
+}
+.why-yatri-rental {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl) 579.9px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--primary-neutral-0);
+  font-family: var(--font-poppins);
+}
+.frontend-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-neutral-0);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-41xl) 0 0;
+  gap: 40px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .image-processing20200705-14536-icon {
+    flex: 1;
+  }
+  .choose-cab-container {
+    flex-wrap: wrap;
+  }
+  .why-yatri-rental {
+    padding-bottom: 377px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .banner-container-parent,
+  .platform-info,
+  .scenic-landscapes {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .platform-info {
+    padding-top: var(--padding-11xl);
+    padding-bottom: var(--padding-11xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .why-choose-ac-container {
+    font-size: var(--font-size-10xl);
+  }
+  .choose-cab-content {
+    min-width: 100%;
+  }
+  .choose-cab-container-wrapper {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .discovering-indias-diverse-container {
+    font-size: var(--font-size-19xl);
+  }
+  .experience {
+    padding-top: var(--padding-11xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .scenic-landscapes {
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .why-choose-yatri {
+    font-size: var(--font-size-19xl);
+  }
+  .why-yatri-rental {
+    padding-bottom: 245px;
+    box-sizing: border-box;
+  }
+  .frontend-page {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .banner-container-parent {
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .why-choose-ac-container {
+    font-size: var(--font-size-3xl);
+  }
+  .our-oneway-cab-container {
+    font-size: var(--font-size-base);
+  }
+  .discovering-indias-diverse-container {
+    font-size: var(--font-size-10xl);
+  }
+  .experience-the-thrill-container {
+    font-size: var(--font-size-lg);
+  }
+  .why-choose-yatri {
+    font-size: var(--font-size-10xl);
+  }
+  .yatri-car-rental-container {
+    font-size: var(--font-size-lg);
+  }
+  .platform-info {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .why-yatri-rental {
+    padding-bottom: 159px;
+    box-sizing: border-box;
+  }
+}

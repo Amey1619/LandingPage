@@ -1,0 +1,406 @@
+.why-choose-one {
+  margin: 0;
+  width: 995px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.one-way-cab-benefits-title-wra {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child5 {
+  width: 481px;
+  height: 306px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-300);
+  border: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.instant-booking-confirmation {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.instant-booking-container {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.benefit-items {
+  width: 353px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.confirmed-booking-immediately {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.confirmed-booking-immediately-container {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.benefit-items1 {
+  width: 362px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.no-return-fare-for-one-way-tri {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.no-return-fare-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.benefit-items2 {
+  width: 371px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.clean-professional-cab-servi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.clean-professional-container {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.benefit-items3 {
+  width: 392px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transparent-billing-with-gps-b {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.transparent-billing-with-container {
+  margin: 0;
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.group-div {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-300);
+  border: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) var(--padding-4xs) var(--padding-24xl)
+    var(--padding-3xs);
+  gap: var(--gap-lgi-8);
+  min-width: 313px;
+  min-height: 306px;
+  max-width: 100%;
+}
+.d43c11d76c7db33af616426597e888-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.benefits-image-wrapper {
+  height: 303.5px;
+  width: 428px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child6 {
+  width: 469px;
+  height: 306px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.pick-up-from-your-house {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.pick-up-from-your-container {
+  width: 324px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.dedicated-cab-just-for-you {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.dedicated-cab-just-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.pickup-and-drop {
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.drop-to-your-desired-destinati {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.drop-to-your-container {
+  width: 375px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.completed-more-than-20000-on {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.completed-more-than-container {
+  margin: 0;
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.desired-destination {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.multiple-payment-option-includ {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.multiple-payment-option-container {
+  margin: 0;
+  width: 440px;
+  height: 25px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.benefits-list,
+.rectangle-parent1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent1 {
+  width: 469px;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) 0 var(--padding-18xl) var(--padding-3xs);
+  gap: var(--gap-lgi);
+}
+.benefits-list {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.span {
+  color: var(--color-darkgreen);
+}
+.intercity-car-rentals1 {
+  font-weight: 600;
+}
+.intercity-car-rentals {
+  color: var(--color-darkgreen);
+}
+.discover-affordable-travel-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 100%;
+  font-family: inherit;
+}
+.affordable-travel,
+.one-way-cab-benefits-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.affordable-travel {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-100);
+}
+.one-way-cab-benefits-container {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xl);
+}
+.one-way-cab-benefits {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) var(--padding-41xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 800px) {
+  .why-choose-one {
+    font-size: var(--font-size-32xl);
+  }
+  .discover-affordable-travel-container {
+    font-size: var(--font-size-10xl);
+    line-height: 43px;
+  }
+  .one-way-cab-benefits {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .why-choose-one {
+    font-size: var(--font-size-19xl);
+  }
+  .clean-professional-container,
+  .completed-more-than-container,
+  .confirmed-booking-immediately-container,
+  .dedicated-cab-just-container,
+  .drop-to-your-container,
+  .instant-booking-container,
+  .multiple-payment-option-container,
+  .no-return-fare-container,
+  .pick-up-from-your-container,
+  .transparent-billing-with-container {
+    font-size: var(--font-size-base);
+  }
+  .discover-affordable-travel-container {
+    font-size: var(--font-size-3xl);
+    line-height: 32px;
+  }
+}

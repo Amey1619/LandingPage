@@ -1,0 +1,397 @@
+.label {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.button {
+  background-color: var(--color-darkolivegreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-30xl);
+  white-space: nowrap;
+}
+.s-u-v-types-list-child {
+  width: 248.3px;
+  height: 187px;
+  position: relative;
+  background-color: var(--color-lightgoldenrodyellow);
+  display: none;
+}
+.ac-sedans {
+  width: 156.6px;
+}
+.ac-hatchbacks,
+.ac-sedans,
+.ac-suv {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.ac-hatchbacks {
+  width: 180px;
+}
+.ac-suv {
+  min-width: 78.8px;
+}
+.s-u-v-types,
+.s-u-v-types-list {
+  display: flex;
+  align-items: flex-start;
+}
+.s-u-v-types-list {
+  flex: 1;
+  background-color: var(--color-lightgoldenrodyellow);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-18xl)
+    var(--padding-7xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.s-u-v-types {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.s-u-v-options {
+  width: 251.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.label1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.button1 {
+  background-color: var(--color-darkolivegreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-7xl);
+  white-space: nowrap;
+}
+.car-type-details-child {
+  width: 324.1px;
+  height: 187px;
+  position: relative;
+  background-color: var(--color-lightgoldenrodyellow);
+  display: none;
+  max-width: 100%;
+}
+.etios-amaze-dzire,
+.wagon-r-celerio {
+  position: relative;
+  z-index: 2;
+}
+.wagon-r-celerio {
+  align-self: stretch;
+}
+.ertiga-xylo-etc {
+  width: 159.5px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.car-type-buttons,
+.car-type-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.car-type-details {
+  align-self: stretch;
+  background-color: var(--color-lightgoldenrodyellow);
+  align-items: flex-start;
+  padding: var(--padding-xl) var(--padding-base) var(--padding-18xl)
+    var(--padding-lg);
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.car-type-buttons {
+  width: 328.1px;
+  align-items: flex-end;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.label2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.button2 {
+  background-color: var(--color-darkolivegreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-3xs);
+}
+.frame-child3 {
+  width: 226.4px;
+  height: 187px;
+  position: relative;
+  background-color: var(--color-lightgoldenrodyellow);
+  display: none;
+}
+.pax,
+.pax1,
+.pax2 {
+  width: 76.8px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.pax1,
+.pax2 {
+  width: 71.8px;
+}
+.pax2 {
+  width: 102.7px;
+}
+.car-type-buttons1,
+.rectangle-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-group {
+  align-self: stretch;
+  background-color: var(--color-lightgoldenrodyellow);
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-15xl)
+    var(--padding-46xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.car-type-buttons1 {
+  width: 226.4px;
+}
+.label3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.button3 {
+  align-self: stretch;
+  background-color: var(--color-darkolivegreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-xl);
+  white-space: nowrap;
+}
+.trip-types-child {
+  width: 456.7px;
+  height: 187px;
+  position: relative;
+  background-color: var(--color-lightgoldenrodyellow);
+  display: none;
+  max-width: 100%;
+}
+.budget-trips-over,
+.comfortable-trips-with,
+.premium-trips-with {
+  margin: 0;
+  height: 35px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.comfortable-trips-with {
+  align-self: stretch;
+}
+.budget-trips-over,
+.premium-trips-with {
+  max-width: 100%;
+}
+.premium-trips-with {
+  height: 36px;
+}
+.trip-options1,
+.trip-types {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.trip-types {
+  align-self: stretch;
+  background-color: var(--color-lightgoldenrodyellow);
+  padding: var(--padding-mini) var(--padding-3xs) var(--padding-7xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+  margin-top: -15px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.trip-options1 {
+  flex: 1;
+  padding: 0 var(--padding-9xs) 0 0;
+  min-width: 300px;
+}
+.label4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 78px;
+}
+.button4 {
+  background-color: var(--color-darkolivegreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-11xl);
+}
+.frame-child4 {
+  width: 140.6px;
+  height: 187px;
+  position: relative;
+  background-color: var(--color-lightgoldenrodyellow);
+  display: none;
+}
+.rs11km {
+  height: 35px;
+  flex-shrink: 0;
+}
+.rs11km,
+.rs11km1,
+.rs13km {
+  width: 86.8px;
+  position: relative;
+  display: inline-block;
+  min-width: 86.8px;
+  z-index: 2;
+}
+.rs13km {
+  width: 91.7px;
+  height: 37px;
+  flex-shrink: 0;
+  min-width: 91.7px;
+}
+.car-type-buttons2,
+.rectangle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-container {
+  align-self: stretch;
+  background-color: var(--color-lightgoldenrodyellow);
+  padding: var(--padding-mini) var(--padding-lg) var(--padding-10xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.car-type-buttons2 {
+  width: 140.6px;
+}
+.car-type-options,
+.car-types {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.car-type-options {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-6xs);
+}
+.car-types {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--primary-neutral-0);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 800px) {
+  .label2,
+  .label4 {
+    font-size: var(--font-size-7xl);
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .button {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .ac-hatchbacks,
+  .ac-sedans,
+  .ac-suv,
+  .ertiga-xylo-etc,
+  .etios-amaze-dzire,
+  .wagon-r-celerio {
+    font-size: var(--font-size-base);
+  }
+  .label2 {
+    font-size: var(--font-size-lgi);
+    line-height: 13px;
+  }
+  .budget-trips-over,
+  .comfortable-trips-with,
+  .pax,
+  .pax1,
+  .pax2,
+  .premium-trips-with {
+    font-size: var(--font-size-base);
+  }
+  .label4 {
+    font-size: var(--font-size-lgi);
+    line-height: 13px;
+  }
+  .rs11km,
+  .rs11km1,
+  .rs13km {
+    font-size: var(--font-size-base);
+  }
+}

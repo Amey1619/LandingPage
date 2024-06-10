@@ -1,0 +1,240 @@
+.return-fare-container-child {
+  height: 41.2px;
+  width: 65.1px;
+  position: relative;
+  flex-shrink: 0;
+}
+.return-fare-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.return-fare-not {
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  font-weight: 500;
+}
+.return-fare-title-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-29xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.why-pay-for {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid-2);
+  text-transform: capitalize;
+  color: var(--color-black);
+  text-align: center;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.return-fare-container-parent,
+.return-fare-title-wrapper-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.return-fare-title-wrapper-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-smi-2);
+  debug_commit: 69da668;
+}
+.return-fare-container-parent {
+  width: 416.2px;
+  align-items: flex-end;
+  gap: var(--gap-3xl-8);
+}
+.benefit-dividers {
+  height: 239.1px;
+  width: 1.1px;
+  position: relative;
+  border-right: 1.1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+}
+.g-p-s-billing-container-child {
+  height: 73px;
+  width: 56.3px;
+  position: relative;
+}
+.g-p-s-billing-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.gps-based-billing,
+.since-the-gps {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.gps-based-billing {
+  align-self: stretch;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.since-the-gps {
+  margin: 0;
+  height: 92.6px;
+  flex: 1;
+  text-transform: capitalize;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.g-p-s-billing-description-wrap {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-mid-2);
+  color: var(--color-black);
+}
+.g-p-s-billing-container-parent,
+.gps-based-billing-system-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gps-based-billing-system-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.g-p-s-billing-container-parent {
+  width: 374px;
+  align-items: flex-end;
+  gap: var(--gap-lgi-5);
+  flex-shrink: 0;
+  text-align: center;
+}
+.benefit-dividers1 {
+  height: 239.1px;
+  width: 1.1px;
+  position: relative;
+  border-right: 1.1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+}
+.vuesaxlineardriving-icon {
+  height: 67.9px;
+  width: 73.1px;
+  position: relative;
+}
+.available-routes-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.now-available-routes {
+  position: relative;
+  text-transform: uppercase;
+}
+.lucknow-gorakhpur {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+}
+.available-routes-list-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-35xl) 0 var(--padding-34xl);
+  text-align: center;
+  font-size: var(--font-size-mid-2);
+  color: var(--color-black);
+}
+.available-routes-container-parent {
+  width: 385.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi-2);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.benefits,
+.frame-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.frame-parent2 {
+  justify-content: center;
+  gap: var(--gap-35xl-9);
+}
+.benefits {
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-8xl-4);
+  color: var(--color-darkgreen);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1350px) {
+  .benefit-dividers,
+  .benefit-dividers1 {
+    width: 100%;
+    height: 1.1px;
+  }
+  .frame-parent2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frame-parent2 {
+    gap: var(--gap-8xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .return-fare-not {
+    font-size: var(--font-size-3xl);
+  }
+  .return-fare-title-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .gps-based-billing,
+  .now-available-routes {
+    font-size: var(--font-size-3xl);
+  }
+  .available-routes-list-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

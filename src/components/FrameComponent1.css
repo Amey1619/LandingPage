@@ -1,0 +1,200 @@
+.no-over-pricing {
+  height: 50px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.pricing-row-one {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-42xl) 0 var(--padding-39xl);
+}
+.cheapest-costs-i {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-7xl-6);
+  font-weight: 300;
+}
+.pricing-elements,
+.pricing-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.pricing-grid {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-5);
+}
+.pricing-elements {
+  width: 411px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mid-2);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pricing-container-child {
+  height: 120px;
+  width: 0;
+  position: relative;
+  object-fit: contain;
+}
+.button-wrapper,
+.download-now {
+  display: flex;
+  justify-content: center;
+}
+.download-now {
+  width: 237.6px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+}
+.button-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.image-6-icon,
+.image-7-icon {
+  align-self: stretch;
+  width: 204.7px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 79px;
+}
+.app-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+}
+.callout-content,
+.download-callout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.callout-content {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.download-callout {
+  width: 409.4px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs-4);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-7xl);
+}
+.pricing-container-item {
+  height: 120px;
+  width: 0;
+  position: relative;
+  object-fit: contain;
+}
+.no-return-fare {
+  height: 50px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.no-return-fare-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-5xl) 0 var(--padding-xl);
+}
+.one-way-cab-fare {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-7xl-6);
+  font-weight: 300;
+}
+.frame-parent1,
+.pricing-elements1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame-parent1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-5);
+}
+.pricing-elements1 {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mid-2);
+  box-sizing: border-box;
+  min-width: 290px;
+  max-width: 100%;
+}
+.pricing-container,
+.pricing-container-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pricing-container {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro);
+  overflow: hidden;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: var(--padding-2xl) var(--padding-8xl);
+  gap: var(--gap-xl);
+  z-index: 3;
+}
+.pricing-container-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  margin-top: -63px;
+  text-align: center;
+  font-size: var(--font-size-22xl-8);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 800px) {
+  .no-over-pricing {
+    font-size: var(--font-size-14xl);
+  }
+  .app-icons {
+    flex-wrap: wrap;
+  }
+  .no-return-fare {
+    font-size: var(--font-size-14xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .no-over-pricing {
+    font-size: var(--font-size-6xl);
+  }
+  .pricing-row-one {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cheapest-costs-i,
+  .download-now {
+    font-size: var(--font-size-2xl);
+  }
+  .no-return-fare {
+    font-size: var(--font-size-6xl);
+  }
+  .one-way-cab-fare {
+    font-size: var(--font-size-2xl);
+  }
+}
